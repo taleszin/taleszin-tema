@@ -7,7 +7,9 @@ import java.io.File;
 
 import de.robv.android.xposed.IXposedHookInitPackageResources;
 import de.robv.android.xposed.IXposedHookZygoteInit;
+import de.robv.android.xposed.XC_MethodHook;
 import de.robv.android.xposed.XposedBridge;
+import de.robv.android.xposed.XposedHelpers;
 import de.robv.android.xposed.callbacks.XC_InitPackageResources.InitPackageResourcesParam;
 
 /**
@@ -83,12 +85,53 @@ public class Tema implements IXposedHookZygoteInit, IXposedHookInitPackageResour
             }
         }
         log("framework: " + cores + " cores + " + drawables + " drawables substituídos, " + falhas + " falhas");
+
+        // Taleszin OS: componentes redesenhados (pílula, cantos, cartões) por cima da recoloração
+        int mat = 0;
+        if (modRes != null) {
+            for (int i = 0; i < Material.FW_NOMES.length; i++) {
+                try {
+                    XResources.setSystemWideReplacement("android", "drawable", Material.FW_NOMES[i],
+                            modRes.fwd(Material.FW_IDS[i]));
+                    mat++;
+                } catch (Throwable t) {
+                    log("material android:drawable/" + Material.FW_NOMES[i] + " não substituído: " + t);
+                }
+            }
+        }
+        log("material: " + mat + " de " + Material.FW_NOMES.length + " componentes");
+        interruptorSemTexto();
+    }
+
+    /** O Switch do KitKat escreve LIGADO/DESLIGADO dentro do polegar e tem 96dp de largura mínima;
+     *  na pílula da Taleszin OS o polegar é só a bolinha (largura vem do padding do 9-patch). */
+    private static void interruptorSemTexto() {
+        try {
+            XposedHelpers.findAndHookConstructor(android.widget.Switch.class, android.content.Context.class,
+                    android.util.AttributeSet.class, int.class, new XC_MethodHook() {
+                        @Override
+                        protected void afterHookedMethod(MethodHookParam param) {
+                            try {
+                                android.widget.Switch sw = (android.widget.Switch) param.thisObject;
+                                sw.setTextOn("");
+                                sw.setTextOff("");
+                                sw.setThumbTextPadding(0);
+                                sw.setSwitchMinWidth(0);
+                            } catch (Throwable ignored) {
+                            }
+                        }
+                    });
+            log("interruptor: texto do polegar removido");
+        } catch (Throwable t) {
+            log("interruptor: hook falhou (fica o texto)");
+            logT(t);
+        }
     }
 
     @Override
     public void handleInitPackageResources(InitPackageResourcesParam resparam) {
         try {
-            if (!ativo || Tabela.UI_NOMES.length == 0 || resparam == null
+            if (!ativo || resparam == null
                     || !SYSTEMUI.equals(resparam.packageName)) {
                 return;
             }
@@ -101,6 +144,15 @@ public class Tema implements IXposedHookZygoteInit, IXposedHookInitPackageResour
                     ok++;
                 } catch (Throwable t) {
                     log("SystemUI drawable/" + Tabela.UI_NOMES[i] + " não substituído: " + t);
+                }
+            }
+            for (int i = 0; i < Material.UI_NOMES.length; i++) {
+                try {
+                    resparam.res.setReplacement(SYSTEMUI, "drawable", Material.UI_NOMES[i],
+                            modRes.fwd(Material.UI_IDS[i]));
+                    ok++;
+                } catch (Throwable t) {
+                    log("SystemUI material/" + Material.UI_NOMES[i] + " não substituído: " + t);
                 }
             }
             log("SystemUI: " + ok + " drawables substituídos");

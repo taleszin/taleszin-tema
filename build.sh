@@ -12,6 +12,7 @@ APK="$OUT/m7s-tema.apk"
 
 [ -d stock/fw/res ] || { echo "falta stock/ (ver README de tools/: extrair framework-res.apk e SystemUI.apk)"; exit 1; }
 python3 -P tools/gerar.py
+python3 -P tools/material.py   # linguagem visual da Taleszin OS por cima da recoloração
 
 rm -rf "$OUT/res" "$OUT/gen" "$OUT/classes" "$OUT/stubs" "$OUT/dex" "$OUT"/*.apk
 mkdir -p "$OUT/res" "$OUT/gen" "$OUT/classes" "$OUT/stubs" "$OUT/dex"

@@ -36,10 +36,25 @@ idx = {}
 for n in nomes:
     m = re.match(r'res/(drawable[^/]*)/([^/.]+)\.(9\.png|png)$', n)
     if m: idx[(re.sub(r'-v4$', '', m.group(1)), m.group(2))] = n
+# redesenhados pela tools/material.py: geometria própria, conferida à parte (padding não vazio)
+mat = set(re.findall(r'"([a-z0-9_]+)"', open(os.path.join(ROOT, 'src/com/m7s/tema/Material.java')).read()))
+nmat = 0
+with tempfile.TemporaryDirectory() as t:
+    for (d, nome), arq in idx.items():
+        if nome not in mat and not nome.startswith('tz_'): continue
+        p = os.path.join(t, 'm.png'); open(p, 'wb').write(z.read(arq))
+        np_ = pngchunks.ninepatch(p) if arq.endswith('.9.png') else None
+        if np_:
+            w, h = Image.open(p).size
+            l, r, tp, b = np_['pad']
+            if l + r >= w or tp + b >= h: erros.append('%s: conteúdo vazio (pad %r em %dx%d)' % (nome, np_['pad'], w, h))
+        nmat += 1
+print('material: %d recursos redesenhados conferidos' % nmat)
 n9 = nimg = 0
 with tempfile.TemporaryDirectory() as t:
     for a in meta['arquivos']:
         k = (a['dir'], a['nome'])
+        if a['nome'] in mat: continue
         if k not in idx: erros.append('ausente no APK: %s/%s' % k); continue
         p = os.path.join(t, 'x.png'); open(p, 'wb').write(z.read(idx[k]))
         orig = os.path.join(ROOT, a['orig'])
