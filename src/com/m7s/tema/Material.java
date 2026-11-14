@@ -87,6 +87,8 @@ final class Material {
         "list_activated_holo",
         "list_section_divider_holo_dark",
         "list_section_divider_holo_light",
+        "stat_sys_adb_am",
+        "stat_sys_adb",
     };
     static final int[] FW_IDS = {
         R.drawable.btn_check_on_holo_dark,
@@ -170,13 +172,23 @@ final class Material {
         R.drawable.list_activated_holo,
         R.drawable.list_section_divider_holo_dark,
         R.drawable.list_section_divider_holo_light,
+        R.drawable.stat_sys_adb_am,
+        R.drawable.stat_sys_adb,
     };
     static final String[] UI_NOMES = {
         "notification_panel_bg",
         "qs_tile_background",
+        "status_bar_close_off",
+        "status_bar_close_on",
+        "ic_notify_quicksettings_normal",
+        "ic_notify_open_normal",
     };
     static final int[] UI_IDS = {
         R.drawable.notification_panel_bg,
         R.drawable.qs_tile_background,
+        R.drawable.status_bar_close_off,
+        R.drawable.status_bar_close_on,
+        R.drawable.ic_notify_quicksettings_normal,
+        R.drawable.ic_notify_open_normal,
     };
 }

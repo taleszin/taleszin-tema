@@ -241,6 +241,36 @@ def lists():
         save_9(f'list_section_divider_holo_{theme}', canvas(9, 48), (3, 6), (3, 6), (0, 0, 0, 0))
 
 
+# ------------------------------------------------------------------ painel de arrastar (cortina)
+def shade():
+    W = 255
+    # alça: a barra cinza do KitKat vira a pílula de arrastar dos sistemas atuais (32x4 dp)
+    for name, a in (('status_bar_close_off', 110), ('status_bar_close_on', 200)):
+        im = canvas(64, 54)
+        rrect(ImageDraw.Draw(im), (8, 34, 56, 40), 3, fill=(0xC8, 0xCD, 0xD2, a))
+        save_9(name, im, [(0, 8), (56, 64)], (0, 4), (0, 0, 6, 0), where=UI)
+    # cabeçalho: atalhos rápidos (2x2 cantos arredondados) e voltar às notificações (3 cartões)
+    im = canvas(48, 48); d = ImageDraw.Draw(im)
+    for x, y in ((12, 12), (25, 12), (12, 25), (25, 25)):
+        rrect(d, (x, y, x + 11, y + 11), 3, fill=(255, 255, 255, W))
+    save_png('ic_notify_quicksettings_normal', im, where=UI)
+    im = canvas(50, 48); d = ImageDraw.Draw(im)
+    for i, y in enumerate((12, 21, 30)):
+        rrect(d, (12, y, 38, y + 6), 3, fill=(255, 255, 255, (255, 200, 140)[i]))
+    save_png('ic_notify_open_normal', im, where=UI)
+
+
+def status_icons():
+    # depuração USB: o "IIII" do firmware RK vira um terminal ( >_ ) — 36 px = 24 dp
+    im = canvas(36, 36); d = ImageDraw.Draw(im)
+    rrect(d, (4, 7, 32, 29), 4, outline=(255, 255, 255, 255), width=2)
+    d.line([(10 * SS, 13 * SS), (15 * SS, 18 * SS), (10 * SS, 23 * SS)], fill=(255, 255, 255, 255), width=2 * SS, joint='curve')
+    d.line([(18 * SS, 23 * SS), (26 * SS, 23 * SS)], fill=(255, 255, 255, 255), width=2 * SS)
+    save_png('stat_sys_adb_am', im)
+    # o stat_sys_adb do framework é um <bitmap> que lê o PNG por dentro (passa ao largo do Xposed)
+    save_png('stat_sys_adb', im)
+
+
 def java():
     def arr(xs):
         return ''.join(f'        "{x}",\n' for x in xs)
@@ -267,7 +297,7 @@ final class Material {{
 
 
 if __name__ == '__main__':
-    checks_and_radios(); switches(); surfaces(); notifications(); lists()
+    checks_and_radios(); switches(); surfaces(); notifications(); lists(); shade(); status_icons()
     # sem duplicatas (o mesmo nome em hdpi e drawable/ geraria dois IDs)
     FW[:] = list(dict.fromkeys(FW)); UI[:] = list(dict.fromkeys(UI))
     # só substitui o que existe no firmware (nome inexistente faria o Xposed registrar falha)

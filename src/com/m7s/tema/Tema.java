@@ -173,9 +173,71 @@ public class Tema implements IXposedHookZygoteInit, IXposedHookInitPackageResour
                 }
             });
             log("barras: transições translúcidas ligadas na SystemUI");
+            cortinaDeCelular(lpparam.classLoader);
         } catch (Throwable t) {
             log("barras: não liguei a translucidez (seguem opacas)");
             logT(t);
+        }
+    }
+
+    /** A tela de 480 dp cai no layout de tablet (sw480dp) do KitKat: cortina estreita com 16 dp de
+     *  margem, 40% de altura mínima (o bloco preto vazio) e atalhos rápidos escondidos numa zona de
+     *  arrasto à direita — e por isso o botão de atalhos some do cabeçalho. A Taleszin OS usa o padrão
+     *  de celular: cortina de largura total, altura do conteúdo, botão de atalhos no cabeçalho que vira
+     *  o painel (o config_hasFlipSettingsPanel=true vem por recurso em handleInitPackageResources). */
+    private static void cortinaDeCelular(ClassLoader cl) {
+        final String P = "com.android.systemui.statusbar.phone.";
+        try {
+            XposedBridge.hookAllConstructors(Class.forName(P + "PhoneStatusBarView", false, cl), new XC_MethodHook() {
+                @Override
+                protected void afterHookedMethod(MethodHookParam param) {
+                    campo(param.thisObject, "mFullWidthNotifications", Boolean.TRUE);
+                    campo(param.thisObject, "mSettingsPanelDragzoneFrac", Float.valueOf(0f));
+                }
+            });
+            Class<?> psb = Class.forName(P + "PhoneStatusBar", false, cl);
+            XposedHelpers.findAndHookMethod(psb, "loadDimens", new XC_MethodHook() {
+                @Override
+                protected void afterHookedMethod(MethodHookParam param) {
+                    campo(param.thisObject, "mNotificationPanelMarginPx", Integer.valueOf(0));
+                    campo(param.thisObject, "mNotificationPanelMinHeightFrac", Float.valueOf(0f));
+                }
+            });
+            XposedHelpers.findAndHookMethod(psb, "makeStatusBarView", new XC_MethodHook() {
+                @Override
+                protected void afterHookedMethod(MethodHookParam param) {
+                    try {
+                        java.lang.reflect.Field f = param.thisObject.getClass().getDeclaredField("mNotificationPanel");
+                        f.setAccessible(true);
+                        android.view.View panel = (android.view.View) f.get(param.thisObject);
+                        android.view.ViewGroup.LayoutParams lp = panel.getLayoutParams();
+                        lp.width = android.view.ViewGroup.LayoutParams.MATCH_PARENT;
+                        if (lp instanceof android.view.ViewGroup.MarginLayoutParams) {
+                            ((android.view.ViewGroup.MarginLayoutParams) lp).leftMargin = 0;
+                            ((android.view.ViewGroup.MarginLayoutParams) lp).rightMargin = 0;
+                        }
+                        panel.setLayoutParams(lp);
+                        campo(param.thisObject, "mNotificationPanelIsFullScreenWidth", Boolean.TRUE);
+                    } catch (Throwable t) {
+                        log("cortina: largura não ajustada");
+                        logT(t);
+                    }
+                }
+            });
+            log("cortina: padrão de celular (largura total, atalhos no cabeçalho)");
+        } catch (Throwable t) {
+            log("cortina: hooks falharam (fica o layout de tablet)");
+            logT(t);
+        }
+    }
+
+    private static void campo(Object o, String nome, Object v) {
+        try {
+            java.lang.reflect.Field f = o.getClass().getDeclaredField(nome);
+            f.setAccessible(true);
+            f.set(o, v);
+        } catch (Throwable t) {
+            log("campo " + nome + " não ajustado: " + t);
         }
     }
 
@@ -207,6 +269,11 @@ public class Tema implements IXposedHookZygoteInit, IXposedHookInitPackageResour
                 }
             }
             log("SystemUI: " + ok + " drawables substituídos");
+            try {
+                resparam.res.setReplacement(SYSTEMUI, "bool", "config_hasFlipSettingsPanel", Boolean.TRUE);
+            } catch (Throwable t) {
+                log("cortina: config_hasFlipSettingsPanel não substituído: " + t);
+            }
         } catch (Throwable t) {
             log("falha no SystemUI (ignorada)");
             logT(t);
