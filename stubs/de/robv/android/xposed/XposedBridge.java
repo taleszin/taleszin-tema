@@ -3,4 +3,5 @@ package de.robv.android.xposed;
 public final class XposedBridge {
     public static void log(String text) { throw new RuntimeException("stub"); }
     public static void log(Throwable t) { throw new RuntimeException("stub"); }
+    public static java.util.Set<XC_MethodHook.Unhook> hookAllConstructors(Class<?> c, XC_MethodHook cb) { return null; }
 }

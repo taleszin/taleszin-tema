@@ -229,6 +229,18 @@ def notifications():
     UI.append('qs_tile_background')
 
 
+# ------------------------------------------------------------------ listas (Configurações etc.)
+def lists():
+    # item ativo: pílula laranja translúcida com respiro, não o bloco chapado do Holo
+    W = H = 36
+    im = canvas(W, H)
+    rrect(ImageDraw.Draw(im), (4, 2, W - 4, H - 2), 12, fill=rgba(ACCENT, 52))
+    save_9('list_activated_holo', im, (16, 20), (16, 20), (0, 0, 0, 0))
+    # título de seção: sem o sublinhado do Holo (a hierarquia fica com a cor/peso do texto)
+    for theme in ('dark', 'light'):
+        save_9(f'list_section_divider_holo_{theme}', canvas(9, 48), (3, 6), (3, 6), (0, 0, 0, 0))
+
+
 def java():
     def arr(xs):
         return ''.join(f'        "{x}",\n' for x in xs)
@@ -255,7 +267,7 @@ final class Material {{
 
 
 if __name__ == '__main__':
-    checks_and_radios(); switches(); surfaces(); notifications()
+    checks_and_radios(); switches(); surfaces(); notifications(); lists()
     # sem duplicatas (o mesmo nome em hdpi e drawable/ geraria dois IDs)
     FW[:] = list(dict.fromkeys(FW)); UI[:] = list(dict.fromkeys(UI))
     # só substitui o que existe no firmware (nome inexistente faria o Xposed registrar falha)

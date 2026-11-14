@@ -84,6 +84,9 @@ final class Material {
         "notification_bg_normal_pressed",
         "notification_bg_low_normal",
         "notification_bg_low_pressed",
+        "list_activated_holo",
+        "list_section_divider_holo_dark",
+        "list_section_divider_holo_light",
     };
     static final int[] FW_IDS = {
         R.drawable.btn_check_on_holo_dark,
@@ -164,6 +167,9 @@ final class Material {
         R.drawable.notification_bg_normal_pressed,
         R.drawable.notification_bg_low_normal,
         R.drawable.notification_bg_low_pressed,
+        R.drawable.list_activated_holo,
+        R.drawable.list_section_divider_holo_dark,
+        R.drawable.list_section_divider_holo_light,
     };
     static final String[] UI_NOMES = {
         "notification_panel_bg",

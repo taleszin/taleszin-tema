@@ -6,11 +6,13 @@ import android.content.res.XResources;
 import java.io.File;
 
 import de.robv.android.xposed.IXposedHookInitPackageResources;
+import de.robv.android.xposed.IXposedHookLoadPackage;
 import de.robv.android.xposed.IXposedHookZygoteInit;
 import de.robv.android.xposed.XC_MethodHook;
 import de.robv.android.xposed.XposedBridge;
 import de.robv.android.xposed.XposedHelpers;
 import de.robv.android.xposed.callbacks.XC_InitPackageResources.InitPackageResourcesParam;
+import de.robv.android.xposed.callbacks.XC_LoadPackage.LoadPackageParam;
 
 /**
  * Troca o azul Holo (#33B5E5/#0099CC/#00DDFF) pelo laranja basquete (#FF7A1A/#E0650F/#FF9A4D).
@@ -19,7 +21,7 @@ import de.robv.android.xposed.callbacks.XC_InitPackageResources.InitPackageResou
  * Regra de ouro: nada aqui pode lançar exceção para fora — um erro no initZygote impede o boot.
  * Interruptor de emergência: criar /data/local/tmp/m7s-tema.off desliga o módulo no próximo boot.
  */
-public class Tema implements IXposedHookZygoteInit, IXposedHookInitPackageResources {
+public class Tema implements IXposedHookZygoteInit, IXposedHookInitPackageResources, IXposedHookLoadPackage {
     private static final String TAG = "m7s-tema: ";
     private static final String DESLIGA = "/data/local/tmp/m7s-tema.off";
     private static final String SYSTEMUI = "com.android.systemui";
@@ -100,6 +102,15 @@ public class Tema implements IXposedHookZygoteInit, IXposedHookInitPackageResour
             }
         }
         log("material: " + mat + " de " + Material.FW_NOMES.length + " componentes");
+        // o quadrado azulado atrás do ícone da notificação é uma cor (#3333b5e5), não um PNG:
+        // some, e o ícone fica direto sobre o cartão
+        for (String n : new String[] {"notification_template_icon_bg", "notification_template_icon_low_bg"}) {
+            try {
+                XResources.setSystemWideReplacement("android", "drawable", n, Integer.valueOf(0));
+            } catch (Throwable t) {
+                log("fundo de ícone " + n + " não substituído: " + t);
+            }
+        }
         interruptorSemTexto();
     }
 
@@ -124,6 +135,46 @@ public class Tema implements IXposedHookZygoteInit, IXposedHookInitPackageResour
             log("interruptor: texto do polegar removido");
         } catch (Throwable t) {
             log("interruptor: hook falhou (fica o texto)");
+            logT(t);
+        }
+    }
+
+    /** Barras translúcidas: o BarTransitions do KitKat só liga a transição (opaca → translúcida)
+     *  se ActivityManager.isHighEndGfx(), e ro.config.low_ram=true desliga isso no aparelho todo.
+     *  Respondemos "true" SÓ durante o construtor do BarTransitions na SystemUI: o resto (aceleração
+     *  por GPU das janelas, recentes) segue no modo econômico do low_ram. */
+    private static final ThreadLocal<Boolean> NA_BARRA = new ThreadLocal<Boolean>();
+
+    @Override
+    public void handleLoadPackage(LoadPackageParam lpparam) {
+        try {
+            if (!ativo || lpparam == null || !SYSTEMUI.equals(lpparam.packageName)) {
+                return;
+            }
+            Class<?> bt = Class.forName("com.android.systemui.statusbar.phone.BarTransitions", false,
+                    lpparam.classLoader);
+            XposedBridge.hookAllConstructors(bt, new XC_MethodHook() {
+                @Override
+                protected void beforeHookedMethod(MethodHookParam param) {
+                    NA_BARRA.set(Boolean.TRUE);
+                }
+
+                @Override
+                protected void afterHookedMethod(MethodHookParam param) {
+                    NA_BARRA.set(null);
+                }
+            });
+            XposedHelpers.findAndHookMethod(android.app.ActivityManager.class, "isHighEndGfx", new XC_MethodHook() {
+                @Override
+                protected void beforeHookedMethod(MethodHookParam param) {
+                    if (NA_BARRA.get() != null) {
+                        param.setResult(Boolean.TRUE);
+                    }
+                }
+            });
+            log("barras: transições translúcidas ligadas na SystemUI");
+        } catch (Throwable t) {
+            log("barras: não liguei a translucidez (seguem opacas)");
             logT(t);
         }
     }
