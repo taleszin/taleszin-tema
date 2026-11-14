@@ -1,0 +1,3554 @@
+{
+ "cores": {
+  "holo_blue_light": [
+   "0xff33b5e5",
+   "0xffff7a1a"
+  ],
+  "holo_blue_dark": [
+   "0xff0099cc",
+   "0xffe0650f"
+  ],
+  "holo_blue_bright": [
+   "0xff00ddff",
+   "0xffff9a4d"
+  ],
+  "suggestion_highlight_text": [
+   "0xff177bbd",
+   "0xffd25b0d"
+  ],
+  "perms_dangerous_grp_color": [
+   "0xff33b5e5",
+   "0xffff7a1a"
+  ],
+  "perms_dangerous_perm_color": [
+   "0xff33b5e5",
+   "0xffff7a1a"
+  ],
+  "highlighted_text_holo_dark": [
+   "0x6633b5e5",
+   "0x66ff7a1a"
+  ],
+  "highlighted_text_holo_light": [
+   "0x6633b5e5",
+   "0x66ff7a1a"
+  ],
+  "keyguard_avatar_frame_pressed_color": [
+   "0xff35b5e5",
+   "0xffff7a1a"
+  ]
+ },
+ "fw": [
+  "ab_transparent_dark_holo",
+  "ab_transparent_light_holo",
+  "btn_cab_done_focused_holo_dark",
+  "btn_cab_done_focused_holo_light",
+  "btn_check_off_disabled_focused_holo_dark",
+  "btn_check_off_disabled_focused_holo_light",
+  "btn_check_off_focused_holo_dark",
+  "btn_check_off_focused_holo_light",
+  "btn_check_on_disabled_focused_holo_dark",
+  "btn_check_on_disabled_focused_holo_light",
+  "btn_check_on_focused_holo_dark",
+  "btn_check_on_focused_holo_light",
+  "btn_check_on_holo_dark",
+  "btn_check_on_holo_light",
+  "btn_default_disabled_focused_holo_dark",
+  "btn_default_disabled_focused_holo_light",
+  "btn_default_focused_holo",
+  "btn_default_focused_holo_dark",
+  "btn_default_focused_holo_light",
+  "btn_group_pressed_holo_light",
+  "btn_keyboard_key_dark_pressed_holo",
+  "btn_keyboard_key_dark_pressed_off_holo",
+  "btn_keyboard_key_light_pressed_holo",
+  "btn_radio_off_disabled_focused_holo_dark",
+  "btn_radio_off_disabled_focused_holo_light",
+  "btn_radio_off_focused_holo_dark",
+  "btn_radio_off_focused_holo_light",
+  "btn_radio_on_disabled_focused_holo_dark",
+  "btn_radio_on_disabled_focused_holo_light",
+  "btn_radio_on_focused_holo_dark",
+  "btn_radio_on_focused_holo_light",
+  "btn_radio_on_holo_dark",
+  "btn_radio_on_holo_light",
+  "btn_rating_star_off_disabled_focused_holo_dark",
+  "btn_rating_star_off_disabled_focused_holo_light",
+  "btn_rating_star_off_focused_holo_dark",
+  "btn_rating_star_off_focused_holo_light",
+  "btn_rating_star_off_pressed_holo_dark",
+  "btn_rating_star_off_pressed_holo_light",
+  "btn_rating_star_on_disabled_focused_holo_dark",
+  "btn_rating_star_on_disabled_focused_holo_light",
+  "btn_rating_star_on_disabled_holo_dark",
+  "btn_rating_star_on_disabled_holo_light",
+  "btn_rating_star_on_focused_holo_dark",
+  "btn_rating_star_on_focused_holo_light",
+  "btn_rating_star_on_normal_holo_dark",
+  "btn_rating_star_on_normal_holo_light",
+  "btn_rating_star_on_pressed_holo_dark",
+  "btn_rating_star_on_pressed_holo_light",
+  "btn_star_off_disabled_focused_holo_dark",
+  "btn_star_off_disabled_focused_holo_light",
+  "btn_star_off_focused_holo_dark",
+  "btn_star_off_focused_holo_light",
+  "btn_star_off_pressed_holo_dark",
+  "btn_star_off_pressed_holo_light",
+  "btn_star_on_disabled_focused_holo_dark",
+  "btn_star_on_disabled_focused_holo_light",
+  "btn_star_on_disabled_holo_dark",
+  "btn_star_on_disabled_holo_light",
+  "btn_star_on_focused_holo_dark",
+  "btn_star_on_focused_holo_light",
+  "btn_star_on_normal_holo_dark",
+  "btn_star_on_normal_holo_light",
+  "btn_star_on_pressed_holo_dark",
+  "btn_star_on_pressed_holo_light",
+  "btn_toggle_off_disabled_focused_holo_dark",
+  "btn_toggle_off_disabled_focused_holo_light",
+  "btn_toggle_off_focused_holo_dark",
+  "btn_toggle_off_focused_holo_light",
+  "btn_toggle_on_disabled_focused_holo_dark",
+  "btn_toggle_on_disabled_focused_holo_light",
+  "btn_toggle_on_disabled_holo_dark",
+  "btn_toggle_on_disabled_holo_light",
+  "btn_toggle_on_focused_holo_dark",
+  "btn_toggle_on_focused_holo_light",
+  "btn_toggle_on_normal_holo_dark",
+  "btn_toggle_on_normal_holo_light",
+  "cab_background_bottom_holo_dark",
+  "cab_background_bottom_holo_light",
+  "cab_background_top_holo_dark",
+  "cab_background_top_holo_light",
+  "cling_arrow_up",
+  "cling_bg",
+  "cling_button_normal",
+  "cling_button_pressed",
+  "day_picker_week_view_dayline_holo",
+  "divider_strong_holo",
+  "fastscroll_thumb_default_holo",
+  "fastscroll_thumb_pressed_holo",
+  "ic_media_route_on_0_holo_dark",
+  "ic_media_route_on_0_holo_light",
+  "ic_media_route_on_1_holo_dark",
+  "ic_media_route_on_1_holo_light",
+  "ic_media_route_on_2_holo_dark",
+  "ic_media_route_on_2_holo_light",
+  "ic_media_route_on_holo_dark",
+  "ic_media_route_on_holo_light",
+  "list_activated_holo",
+  "list_focused_holo",
+  "list_longpressed_holo",
+  "list_selector_activated_holo_light",
+  "magnified_region_frame",
+  "numberpicker_selection_divider",
+  "panel_picture_frame_bg_focus_blue",
+  "panel_picture_frame_bg_pressed_blue",
+  "progress_primary_holo_dark",
+  "progress_primary_holo_light",
+  "progress_secondary_holo_dark",
+  "progress_secondary_holo_light",
+  "progressbar_indeterminate_holo1",
+  "progressbar_indeterminate_holo2",
+  "progressbar_indeterminate_holo3",
+  "progressbar_indeterminate_holo4",
+  "progressbar_indeterminate_holo5",
+  "progressbar_indeterminate_holo6",
+  "progressbar_indeterminate_holo7",
+  "progressbar_indeterminate_holo8",
+  "quickactions_arrowdown_left_holo_dark",
+  "quickactions_arrowdown_left_holo_light",
+  "quickactions_arrowdown_right_holo_dark",
+  "quickactions_arrowdown_right_holo_light",
+  "quickactions_arrowup_left_holo_dark",
+  "quickactions_arrowup_left_holo_light",
+  "quickactions_arrowup_left_right_holo_dark",
+  "quickactions_arrowup_right_holo_light",
+  "quickcontact_badge_overlay_focused_dark_am",
+  "quickcontact_badge_overlay_focused_light_am",
+  "rate_star_big_half_holo_dark",
+  "rate_star_big_half_holo_light",
+  "rate_star_big_on_holo_dark",
+  "rate_star_big_on_holo_light",
+  "rate_star_med_half_holo_dark",
+  "rate_star_med_half_holo_light",
+  "rate_star_med_on_holo_dark",
+  "rate_star_med_on_holo_light",
+  "rate_star_small_half_holo_dark",
+  "rate_star_small_half_holo_light",
+  "rate_star_small_on_holo_dark",
+  "rate_star_small_on_holo_light",
+  "scrubber_control_disabled_holo",
+  "scrubber_control_focused_holo",
+  "scrubber_control_normal_holo",
+  "scrubber_control_pressed_holo",
+  "scrubber_primary_holo",
+  "scrubber_secondary_holo",
+  "spinner_ab_focused_holo_dark_am",
+  "spinner_ab_focused_holo_light_am",
+  "spinner_focused_holo_dark_am",
+  "spinner_focused_holo_light_am",
+  "stat_sys_phone_call_forward",
+  "switch_bg_focused_holo_dark",
+  "switch_bg_focused_holo_light",
+  "switch_thumb_activated_holo_dark",
+  "switch_thumb_activated_holo_light",
+  "tab_bottom_holo",
+  "tab_pressed_holo",
+  "tab_selected_focused_holo",
+  "tab_selected_holo",
+  "tab_selected_pressed_holo",
+  "tab_unselected_focused_holo",
+  "tab_unselected_holo",
+  "tab_unselected_pressed_holo",
+  "text_select_handle_left",
+  "text_select_handle_middle",
+  "text_select_handle_right",
+  "textfield_activated_holo_dark",
+  "textfield_activated_holo_light",
+  "textfield_focused_holo_dark",
+  "textfield_focused_holo_light",
+  "textfield_longpress_holo",
+  "textfield_multiline_activated_holo_dark",
+  "textfield_multiline_activated_holo_light",
+  "textfield_multiline_focused_holo_dark",
+  "textfield_multiline_focused_holo_light",
+  "textfield_pressed_holo",
+  "textfield_search_right_selected_holo_dark",
+  "textfield_search_right_selected_holo_light",
+  "textfield_search_selected_holo_dark",
+  "textfield_search_selected_holo_light",
+  "webviewchromium_color_picker_advanced_select_handle"
+ ],
+ "ui": [],
+ "arquivos": [
+  {
+   "pkg": "android",
+   "dir": "drawable",
+   "nome": "webviewchromium_color_picker_advanced_select_handle",
+   "orig": "stock/fw/res/drawable/webviewchromium_color_picker_advanced_select_handle.png",
+   "ninepatch": null,
+   "px": 861,
+   "vis": 920
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "ab_transparent_dark_holo",
+   "orig": "stock/fw/res/drawable-hdpi/ab_transparent_dark_holo.9.png",
+   "ninepatch": {
+    "xdivs": [
+     18,
+     19
+    ],
+    "ydivs": [
+     29,
+     30
+    ],
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "ncolors": 9,
+    "layout": null
+   },
+   "px": 108,
+   "vis": 108
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "ab_transparent_light_holo",
+   "orig": "stock/fw/res/drawable-hdpi/ab_transparent_light_holo.9.png",
+   "ninepatch": {
+    "xdivs": [
+     18,
+     19
+    ],
+    "ydivs": [
+     29,
+     30
+    ],
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "ncolors": 9,
+    "layout": null
+   },
+   "px": 108,
+   "vis": 108
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "btn_cab_done_focused_holo_dark",
+   "orig": "stock/fw/res/drawable-hdpi/btn_cab_done_focused_holo_dark.9.png",
+   "ninepatch": {
+    "xdivs": [
+     0,
+     1
+    ],
+    "ydivs": [
+     18,
+     19
+    ],
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "ncolors": 6,
+    "layout": null
+   },
+   "px": 42,
+   "vis": 48
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "btn_cab_done_focused_holo_light",
+   "orig": "stock/fw/res/drawable-hdpi/btn_cab_done_focused_holo_light.9.png",
+   "ninepatch": {
+    "xdivs": [
+     0,
+     1
+    ],
+    "ydivs": [
+     18,
+     19
+    ],
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "ncolors": 6,
+    "layout": null
+   },
+   "px": 42,
+   "vis": 48
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "btn_check_off_disabled_focused_holo_dark",
+   "orig": "stock/fw/res/drawable-hdpi/btn_check_off_disabled_focused_holo_dark.png",
+   "ninepatch": null,
+   "px": 444,
+   "vis": 416
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "btn_check_off_disabled_focused_holo_light",
+   "orig": "stock/fw/res/drawable-hdpi/btn_check_off_disabled_focused_holo_light.png",
+   "ninepatch": null,
+   "px": 444,
+   "vis": 420
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "btn_check_off_focused_holo_dark",
+   "orig": "stock/fw/res/drawable-hdpi/btn_check_off_focused_holo_dark.png",
+   "ninepatch": null,
+   "px": 444,
+   "vis": 524
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "btn_check_off_focused_holo_light",
+   "orig": "stock/fw/res/drawable-hdpi/btn_check_off_focused_holo_light.png",
+   "ninepatch": null,
+   "px": 668,
+   "vis": 612
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "btn_check_on_disabled_focused_holo_dark",
+   "orig": "stock/fw/res/drawable-hdpi/btn_check_on_disabled_focused_holo_dark.png",
+   "ninepatch": null,
+   "px": 518,
+   "vis": 609
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "btn_check_on_disabled_focused_holo_light",
+   "orig": "stock/fw/res/drawable-hdpi/btn_check_on_disabled_focused_holo_light.png",
+   "ninepatch": null,
+   "px": 393,
+   "vis": 534
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "btn_check_on_focused_holo_dark",
+   "orig": "stock/fw/res/drawable-hdpi/btn_check_on_focused_holo_dark.png",
+   "ninepatch": null,
+   "px": 1232,
+   "vis": 953
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "btn_check_on_focused_holo_light",
+   "orig": "stock/fw/res/drawable-hdpi/btn_check_on_focused_holo_light.png",
+   "ninepatch": null,
+   "px": 1267,
+   "vis": 970
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "btn_check_on_holo_dark",
+   "orig": "stock/fw/res/drawable-hdpi/btn_check_on_holo_dark.png",
+   "ninepatch": null,
+   "px": 840,
+   "vis": 609
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "btn_check_on_holo_light",
+   "orig": "stock/fw/res/drawable-hdpi/btn_check_on_holo_light.png",
+   "ninepatch": null,
+   "px": 849,
+   "vis": 686
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "btn_default_disabled_focused_holo_dark",
+   "orig": "stock/fw/res/drawable-hdpi/btn_default_disabled_focused_holo_dark.9.png",
+   "ninepatch": {
+    "xdivs": [
+     18,
+     21
+    ],
+    "ydivs": [
+     24,
+     27
+    ],
+    "pad": [
+     18,
+     18,
+     12,
+     12
+    ],
+    "ncolors": 9,
+    "layout": [
+     6,
+     6,
+     6,
+     6
+    ]
+   },
+   "px": 999,
+   "vis": 995
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "btn_default_disabled_focused_holo_light",
+   "orig": "stock/fw/res/drawable-hdpi/btn_default_disabled_focused_holo_light.9.png",
+   "ninepatch": {
+    "xdivs": [
+     18,
+     21
+    ],
+    "ydivs": [
+     24,
+     27
+    ],
+    "pad": [
+     18,
+     18,
+     12,
+     12
+    ],
+    "ncolors": 9,
+    "layout": [
+     6,
+     6,
+     6,
+     6
+    ]
+   },
+   "px": 999,
+   "vis": 995
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "btn_default_focused_holo",
+   "orig": "stock/fw/res/drawable-hdpi/btn_default_focused_holo.9.png",
+   "ninepatch": {
+    "xdivs": [
+     12,
+     13
+    ],
+    "ydivs": [
+     12,
+     13
+    ],
+    "pad": [
+     6,
+     6,
+     6,
+     6
+    ],
+    "ncolors": 9,
+    "layout": [
+     6,
+     6,
+     6,
+     6
+    ]
+   },
+   "px": 174,
+   "vis": 312
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "btn_default_focused_holo_dark",
+   "orig": "stock/fw/res/drawable-hdpi/btn_default_focused_holo_dark.9.png",
+   "ninepatch": {
+    "xdivs": [
+     18,
+     21
+    ],
+    "ydivs": [
+     24,
+     27
+    ],
+    "pad": [
+     18,
+     18,
+     12,
+     12
+    ],
+    "ncolors": 9,
+    "layout": [
+     6,
+     6,
+     6,
+     6
+    ]
+   },
+   "px": 972,
+   "vis": 999
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "btn_default_focused_holo_light",
+   "orig": "stock/fw/res/drawable-hdpi/btn_default_focused_holo_light.9.png",
+   "ninepatch": {
+    "xdivs": [
+     18,
+     21
+    ],
+    "ydivs": [
+     24,
+     27
+    ],
+    "pad": [
+     18,
+     18,
+     12,
+     12
+    ],
+    "ncolors": 9,
+    "layout": [
+     6,
+     6,
+     6,
+     6
+    ]
+   },
+   "px": 972,
+   "vis": 999
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "btn_group_pressed_holo_light",
+   "orig": "stock/fw/res/drawable-hdpi/btn_group_pressed_holo_light.9.png",
+   "ninepatch": {
+    "xdivs": [
+     15,
+     16
+    ],
+    "ydivs": [
+     30,
+     31
+    ],
+    "pad": [
+     6,
+     6,
+     6,
+     6
+    ],
+    "ncolors": 9,
+    "layout": null
+   },
+   "px": 1281,
+   "vis": 1253
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "btn_keyboard_key_dark_pressed_holo",
+   "orig": "stock/fw/res/drawable-hdpi/btn_keyboard_key_dark_pressed_holo.9.png",
+   "ninepatch": {
+    "xdivs": [
+     15,
+     18
+    ],
+    "ydivs": [
+     9,
+     21
+    ],
+    "pad": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "ncolors": 9,
+    "layout": null
+   },
+   "px": 594,
+   "vis": 652
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "btn_keyboard_key_dark_pressed_off_holo",
+   "orig": "stock/fw/res/drawable-hdpi/btn_keyboard_key_dark_pressed_off_holo.9.png",
+   "ninepatch": {
+    "xdivs": [
+     9,
+     12,
+     18,
+     21,
+     27,
+     30
+    ],
+    "ydivs": [
+     9,
+     21
+    ],
+    "pad": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "ncolors": 21,
+    "layout": null
+   },
+   "px": 810,
+   "vis": 886
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "btn_keyboard_key_light_pressed_holo",
+   "orig": "stock/fw/res/drawable-hdpi/btn_keyboard_key_light_pressed_holo.9.png",
+   "ninepatch": {
+    "xdivs": [
+     15,
+     18
+    ],
+    "ydivs": [
+     9,
+     21
+    ],
+    "pad": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "ncolors": 9,
+    "layout": null
+   },
+   "px": 594,
+   "vis": 652
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "btn_radio_off_disabled_focused_holo_dark",
+   "orig": "stock/fw/res/drawable-hdpi/btn_radio_off_disabled_focused_holo_dark.png",
+   "ninepatch": null,
+   "px": 412,
+   "vis": 412
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "btn_radio_off_disabled_focused_holo_light",
+   "orig": "stock/fw/res/drawable-hdpi/btn_radio_off_disabled_focused_holo_light.png",
+   "ninepatch": null,
+   "px": 412,
+   "vis": 428
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "btn_radio_off_focused_holo_dark",
+   "orig": "stock/fw/res/drawable-hdpi/btn_radio_off_focused_holo_dark.png",
+   "ninepatch": null,
+   "px": 417,
+   "vis": 462
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "btn_radio_off_focused_holo_light",
+   "orig": "stock/fw/res/drawable-hdpi/btn_radio_off_focused_holo_light.png",
+   "ninepatch": null,
+   "px": 417,
+   "vis": 511
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "btn_radio_on_disabled_focused_holo_dark",
+   "orig": "stock/fw/res/drawable-hdpi/btn_radio_on_disabled_focused_holo_dark.png",
+   "ninepatch": null,
+   "px": 412,
+   "vis": 628
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "btn_radio_on_disabled_focused_holo_light",
+   "orig": "stock/fw/res/drawable-hdpi/btn_radio_on_disabled_focused_holo_light.png",
+   "ninepatch": null,
+   "px": 412,
+   "vis": 644
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "btn_radio_on_focused_holo_dark",
+   "orig": "stock/fw/res/drawable-hdpi/btn_radio_on_focused_holo_dark.png",
+   "ninepatch": null,
+   "px": 939,
+   "vis": 884
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "btn_radio_on_focused_holo_light",
+   "orig": "stock/fw/res/drawable-hdpi/btn_radio_on_focused_holo_light.png",
+   "ninepatch": null,
+   "px": 950,
+   "vis": 908
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "btn_radio_on_holo_dark",
+   "orig": "stock/fw/res/drawable-hdpi/btn_radio_on_holo_dark.png",
+   "ninepatch": null,
+   "px": 610,
+   "vis": 568
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "btn_radio_on_holo_light",
+   "orig": "stock/fw/res/drawable-hdpi/btn_radio_on_holo_light.png",
+   "ninepatch": null,
+   "px": 621,
+   "vis": 592
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "btn_rating_star_off_disabled_focused_holo_dark",
+   "orig": "stock/fw/res/drawable-hdpi/btn_rating_star_off_disabled_focused_holo_dark.png",
+   "ninepatch": null,
+   "px": 785,
+   "vis": 1827
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "btn_rating_star_off_disabled_focused_holo_light",
+   "orig": "stock/fw/res/drawable-hdpi/btn_rating_star_off_disabled_focused_holo_light.png",
+   "ninepatch": null,
+   "px": 849,
+   "vis": 1864
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "btn_rating_star_off_focused_holo_dark",
+   "orig": "stock/fw/res/drawable-hdpi/btn_rating_star_off_focused_holo_dark.png",
+   "ninepatch": null,
+   "px": 806,
+   "vis": 1897
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "btn_rating_star_off_focused_holo_light",
+   "orig": "stock/fw/res/drawable-hdpi/btn_rating_star_off_focused_holo_light.png",
+   "ninepatch": null,
+   "px": 868,
+   "vis": 1916
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "btn_rating_star_off_pressed_holo_dark",
+   "orig": "stock/fw/res/drawable-hdpi/btn_rating_star_off_pressed_holo_dark.png",
+   "ninepatch": null,
+   "px": 1722,
+   "vis": 2762
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "btn_rating_star_off_pressed_holo_light",
+   "orig": "stock/fw/res/drawable-hdpi/btn_rating_star_off_pressed_holo_light.png",
+   "ninepatch": null,
+   "px": 1791,
+   "vis": 2799
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "btn_rating_star_on_disabled_focused_holo_dark",
+   "orig": "stock/fw/res/drawable-hdpi/btn_rating_star_on_disabled_focused_holo_dark.png",
+   "ninepatch": null,
+   "px": 1787,
+   "vis": 1832
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "btn_rating_star_on_disabled_focused_holo_light",
+   "orig": "stock/fw/res/drawable-hdpi/btn_rating_star_on_disabled_focused_holo_light.png",
+   "ninepatch": null,
+   "px": 1917,
+   "vis": 1863
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "btn_rating_star_on_disabled_holo_dark",
+   "orig": "stock/fw/res/drawable-hdpi/btn_rating_star_on_disabled_holo_dark.png",
+   "ninepatch": null,
+   "px": 1008,
+   "vis": 1275
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "btn_rating_star_on_disabled_holo_light",
+   "orig": "stock/fw/res/drawable-hdpi/btn_rating_star_on_disabled_holo_light.png",
+   "ninepatch": null,
+   "px": 1068,
+   "vis": 1266
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "btn_rating_star_on_focused_holo_dark",
+   "orig": "stock/fw/res/drawable-hdpi/btn_rating_star_on_focused_holo_dark.png",
+   "ninepatch": null,
+   "px": 1811,
+   "vis": 1894
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "btn_rating_star_on_focused_holo_light",
+   "orig": "stock/fw/res/drawable-hdpi/btn_rating_star_on_focused_holo_light.png",
+   "ninepatch": null,
+   "px": 1937,
+   "vis": 1916
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "btn_rating_star_on_normal_holo_dark",
+   "orig": "stock/fw/res/drawable-hdpi/btn_rating_star_on_normal_holo_dark.png",
+   "ninepatch": null,
+   "px": 1007,
+   "vis": 1323
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "btn_rating_star_on_normal_holo_light",
+   "orig": "stock/fw/res/drawable-hdpi/btn_rating_star_on_normal_holo_light.png",
+   "ninepatch": null,
+   "px": 1068,
+   "vis": 1333
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "btn_rating_star_on_pressed_holo_dark",
+   "orig": "stock/fw/res/drawable-hdpi/btn_rating_star_on_pressed_holo_dark.png",
+   "ninepatch": null,
+   "px": 2723,
+   "vis": 2766
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "btn_rating_star_on_pressed_holo_light",
+   "orig": "stock/fw/res/drawable-hdpi/btn_rating_star_on_pressed_holo_light.png",
+   "ninepatch": null,
+   "px": 2860,
+   "vis": 2799
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "btn_star_off_disabled_focused_holo_dark",
+   "orig": "stock/fw/res/drawable-hdpi/btn_star_off_disabled_focused_holo_dark.png",
+   "ninepatch": null,
+   "px": 453,
+   "vis": 814
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "btn_star_off_disabled_focused_holo_light",
+   "orig": "stock/fw/res/drawable-hdpi/btn_star_off_disabled_focused_holo_light.png",
+   "ninepatch": null,
+   "px": 526,
+   "vis": 814
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "btn_star_off_focused_holo_dark",
+   "orig": "stock/fw/res/drawable-hdpi/btn_star_off_focused_holo_dark.png",
+   "ninepatch": null,
+   "px": 473,
+   "vis": 872
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "btn_star_off_focused_holo_light",
+   "orig": "stock/fw/res/drawable-hdpi/btn_star_off_focused_holo_light.png",
+   "ninepatch": null,
+   "px": 546,
+   "vis": 872
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "btn_star_off_pressed_holo_dark",
+   "orig": "stock/fw/res/drawable-hdpi/btn_star_off_pressed_holo_dark.png",
+   "ninepatch": null,
+   "px": 863,
+   "vis": 1264
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "btn_star_off_pressed_holo_light",
+   "orig": "stock/fw/res/drawable-hdpi/btn_star_off_pressed_holo_light.png",
+   "ninepatch": null,
+   "px": 936,
+   "vis": 1264
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "btn_star_on_disabled_focused_holo_dark",
+   "orig": "stock/fw/res/drawable-hdpi/btn_star_on_disabled_focused_holo_dark.png",
+   "ninepatch": null,
+   "px": 860,
+   "vis": 810
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "btn_star_on_disabled_focused_holo_light",
+   "orig": "stock/fw/res/drawable-hdpi/btn_star_on_disabled_focused_holo_light.png",
+   "ninepatch": null,
+   "px": 959,
+   "vis": 814
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "btn_star_on_disabled_holo_dark",
+   "orig": "stock/fw/res/drawable-hdpi/btn_star_on_disabled_holo_dark.png",
+   "ninepatch": null,
+   "px": 410,
+   "vis": 592
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "btn_star_on_disabled_holo_light",
+   "orig": "stock/fw/res/drawable-hdpi/btn_star_on_disabled_holo_light.png",
+   "ninepatch": null,
+   "px": 493,
+   "vis": 563
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "btn_star_on_focused_holo_dark",
+   "orig": "stock/fw/res/drawable-hdpi/btn_star_on_focused_holo_dark.png",
+   "ninepatch": null,
+   "px": 883,
+   "vis": 872
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "btn_star_on_focused_holo_light",
+   "orig": "stock/fw/res/drawable-hdpi/btn_star_on_focused_holo_light.png",
+   "ninepatch": null,
+   "px": 979,
+   "vis": 872
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "btn_star_on_normal_holo_dark",
+   "orig": "stock/fw/res/drawable-hdpi/btn_star_on_normal_holo_dark.png",
+   "ninepatch": null,
+   "px": 411,
+   "vis": 635
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "btn_star_on_normal_holo_light",
+   "orig": "stock/fw/res/drawable-hdpi/btn_star_on_normal_holo_light.png",
+   "ninepatch": null,
+   "px": 494,
+   "vis": 619
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "btn_star_on_pressed_holo_dark",
+   "orig": "stock/fw/res/drawable-hdpi/btn_star_on_pressed_holo_dark.png",
+   "ninepatch": null,
+   "px": 1283,
+   "vis": 1260
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "btn_star_on_pressed_holo_light",
+   "orig": "stock/fw/res/drawable-hdpi/btn_star_on_pressed_holo_light.png",
+   "ninepatch": null,
+   "px": 1369,
+   "vis": 1264
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "btn_toggle_off_disabled_focused_holo_dark",
+   "orig": "stock/fw/res/drawable-hdpi/btn_toggle_off_disabled_focused_holo_dark.9.png",
+   "ninepatch": {
+    "xdivs": [
+     9,
+     12,
+     18,
+     21,
+     27,
+     30
+    ],
+    "ydivs": [
+     24,
+     27
+    ],
+    "pad": [
+     18,
+     18,
+     6,
+     6
+    ],
+    "ncolors": 21,
+    "layout": [
+     6,
+     6,
+     6,
+     6
+    ]
+   },
+   "px": 972,
+   "vis": 997
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "btn_toggle_off_disabled_focused_holo_light",
+   "orig": "stock/fw/res/drawable-hdpi/btn_toggle_off_disabled_focused_holo_light.9.png",
+   "ninepatch": {
+    "xdivs": [
+     9,
+     12,
+     18,
+     21,
+     27,
+     30
+    ],
+    "ydivs": [
+     24,
+     27
+    ],
+    "pad": [
+     18,
+     18,
+     6,
+     6
+    ],
+    "ncolors": 21,
+    "layout": [
+     6,
+     6,
+     6,
+     6
+    ]
+   },
+   "px": 972,
+   "vis": 997
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "btn_toggle_off_focused_holo_dark",
+   "orig": "stock/fw/res/drawable-hdpi/btn_toggle_off_focused_holo_dark.9.png",
+   "ninepatch": {
+    "xdivs": [
+     9,
+     12,
+     18,
+     21,
+     27,
+     30
+    ],
+    "ydivs": [
+     24,
+     27
+    ],
+    "pad": [
+     18,
+     18,
+     6,
+     6
+    ],
+    "ncolors": 21,
+    "layout": [
+     6,
+     6,
+     6,
+     6
+    ]
+   },
+   "px": 972,
+   "vis": 1084
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "btn_toggle_off_focused_holo_light",
+   "orig": "stock/fw/res/drawable-hdpi/btn_toggle_off_focused_holo_light.9.png",
+   "ninepatch": {
+    "xdivs": [
+     9,
+     12,
+     18,
+     21,
+     27,
+     30
+    ],
+    "ydivs": [
+     24,
+     27
+    ],
+    "pad": [
+     18,
+     18,
+     6,
+     6
+    ],
+    "ncolors": 21,
+    "layout": [
+     6,
+     6,
+     6,
+     6
+    ]
+   },
+   "px": 972,
+   "vis": 1084
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "btn_toggle_on_disabled_focused_holo_dark",
+   "orig": "stock/fw/res/drawable-hdpi/btn_toggle_on_disabled_focused_holo_dark.9.png",
+   "ninepatch": {
+    "xdivs": [
+     9,
+     12,
+     18,
+     21,
+     27,
+     30
+    ],
+    "ydivs": [
+     24,
+     27
+    ],
+    "pad": [
+     18,
+     18,
+     6,
+     6
+    ],
+    "ncolors": 21,
+    "layout": [
+     6,
+     6,
+     6,
+     6
+    ]
+   },
+   "px": 972,
+   "vis": 997
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "btn_toggle_on_disabled_focused_holo_light",
+   "orig": "stock/fw/res/drawable-hdpi/btn_toggle_on_disabled_focused_holo_light.9.png",
+   "ninepatch": {
+    "xdivs": [
+     9,
+     12,
+     18,
+     21,
+     27,
+     30
+    ],
+    "ydivs": [
+     24,
+     27
+    ],
+    "pad": [
+     18,
+     18,
+     6,
+     6
+    ],
+    "ncolors": 21,
+    "layout": [
+     6,
+     6,
+     6,
+     6
+    ]
+   },
+   "px": 972,
+   "vis": 997
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "btn_toggle_on_disabled_holo_dark",
+   "orig": "stock/fw/res/drawable-hdpi/btn_toggle_on_disabled_holo_dark.9.png",
+   "ninepatch": {
+    "xdivs": [
+     9,
+     12,
+     18,
+     21,
+     27,
+     30
+    ],
+    "ydivs": [
+     24,
+     27
+    ],
+    "pad": [
+     18,
+     18,
+     6,
+     6
+    ],
+    "ncolors": 21,
+    "layout": [
+     6,
+     6,
+     6,
+     6
+    ]
+   },
+   "px": 25,
+   "vis": 997
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "btn_toggle_on_disabled_holo_light",
+   "orig": "stock/fw/res/drawable-hdpi/btn_toggle_on_disabled_holo_light.9.png",
+   "ninepatch": {
+    "xdivs": [
+     9,
+     12,
+     18,
+     21,
+     27,
+     30
+    ],
+    "ydivs": [
+     24,
+     27
+    ],
+    "pad": [
+     18,
+     18,
+     6,
+     6
+    ],
+    "ncolors": 21,
+    "layout": [
+     6,
+     6,
+     6,
+     6
+    ]
+   },
+   "px": 25,
+   "vis": 997
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "btn_toggle_on_focused_holo_dark",
+   "orig": "stock/fw/res/drawable-hdpi/btn_toggle_on_focused_holo_dark.9.png",
+   "ninepatch": {
+    "xdivs": [
+     9,
+     12,
+     18,
+     21,
+     27,
+     30
+    ],
+    "ydivs": [
+     24,
+     27
+    ],
+    "pad": [
+     18,
+     18,
+     6,
+     6
+    ],
+    "ncolors": 21,
+    "layout": [
+     6,
+     6,
+     6,
+     6
+    ]
+   },
+   "px": 972,
+   "vis": 1084
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "btn_toggle_on_focused_holo_light",
+   "orig": "stock/fw/res/drawable-hdpi/btn_toggle_on_focused_holo_light.9.png",
+   "ninepatch": {
+    "xdivs": [
+     9,
+     12,
+     18,
+     21,
+     27,
+     30
+    ],
+    "ydivs": [
+     24,
+     27
+    ],
+    "pad": [
+     18,
+     18,
+     6,
+     6
+    ],
+    "ncolors": 21,
+    "layout": [
+     6,
+     6,
+     6,
+     6
+    ]
+   },
+   "px": 972,
+   "vis": 1084
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "btn_toggle_on_normal_holo_dark",
+   "orig": "stock/fw/res/drawable-hdpi/btn_toggle_on_normal_holo_dark.9.png",
+   "ninepatch": {
+    "xdivs": [
+     9,
+     12,
+     18,
+     21,
+     27,
+     30
+    ],
+    "ydivs": [
+     24,
+     27
+    ],
+    "pad": [
+     18,
+     18,
+     6,
+     6
+    ],
+    "ncolors": 21,
+    "layout": [
+     6,
+     6,
+     6,
+     6
+    ]
+   },
+   "px": 25,
+   "vis": 997
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "btn_toggle_on_normal_holo_light",
+   "orig": "stock/fw/res/drawable-hdpi/btn_toggle_on_normal_holo_light.9.png",
+   "ninepatch": {
+    "xdivs": [
+     9,
+     12,
+     18,
+     21,
+     27,
+     30
+    ],
+    "ydivs": [
+     24,
+     27
+    ],
+    "pad": [
+     18,
+     18,
+     6,
+     6
+    ],
+    "ncolors": 21,
+    "layout": [
+     6,
+     6,
+     6,
+     6
+    ]
+   },
+   "px": 25,
+   "vis": 997
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "cab_background_bottom_holo_dark",
+   "orig": "stock/fw/res/drawable-hdpi/cab_background_bottom_holo_dark.9.png",
+   "ninepatch": {
+    "xdivs": [
+     6,
+     7
+    ],
+    "ydivs": [
+     29,
+     30
+    ],
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "ncolors": 9,
+    "layout": null
+   },
+   "px": 1296,
+   "vis": 1296
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "cab_background_bottom_holo_light",
+   "orig": "stock/fw/res/drawable-hdpi/cab_background_bottom_holo_light.9.png",
+   "ninepatch": {
+    "xdivs": [
+     6,
+     7
+    ],
+    "ydivs": [
+     29,
+     30
+    ],
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "ncolors": 9,
+    "layout": null
+   },
+   "px": 144,
+   "vis": 1296
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "cab_background_top_holo_dark",
+   "orig": "stock/fw/res/drawable-hdpi/cab_background_top_holo_dark.9.png",
+   "ninepatch": {
+    "xdivs": [
+     6,
+     7
+    ],
+    "ydivs": [
+     29,
+     30
+    ],
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "ncolors": 9,
+    "layout": null
+   },
+   "px": 1296,
+   "vis": 1296
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "cab_background_top_holo_light",
+   "orig": "stock/fw/res/drawable-hdpi/cab_background_top_holo_light.9.png",
+   "ninepatch": {
+    "xdivs": [
+     6,
+     7
+    ],
+    "ydivs": [
+     29,
+     30
+    ],
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "ncolors": 9,
+    "layout": null
+   },
+   "px": 144,
+   "vis": 1296
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "cling_arrow_up",
+   "orig": "stock/fw/res/drawable-hdpi/cling_arrow_up.png",
+   "ninepatch": null,
+   "px": 268,
+   "vis": 256
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "cling_bg",
+   "orig": "stock/fw/res/drawable-hdpi/cling_bg.9.png",
+   "ninepatch": {
+    "xdivs": [
+     6,
+     9
+    ],
+    "ydivs": [
+     6,
+     9
+    ],
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "ncolors": 9,
+    "layout": null
+   },
+   "px": 225,
+   "vis": 221
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "cling_button_normal",
+   "orig": "stock/fw/res/drawable-hdpi/cling_button_normal.9.png",
+   "ninepatch": {
+    "xdivs": [
+     18,
+     21
+    ],
+    "ydivs": [
+     27,
+     30
+    ],
+    "pad": [
+     18,
+     18,
+     10,
+     12
+    ],
+    "ncolors": 9,
+    "layout": null
+   },
+   "px": 1098,
+   "vis": 1090
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "cling_button_pressed",
+   "orig": "stock/fw/res/drawable-hdpi/cling_button_pressed.9.png",
+   "ninepatch": {
+    "xdivs": [
+     18,
+     21
+    ],
+    "ydivs": [
+     27,
+     30
+    ],
+    "pad": [
+     18,
+     18,
+     10,
+     12
+    ],
+    "ncolors": 9,
+    "layout": null
+   },
+   "px": 1098,
+   "vis": 1090
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "day_picker_week_view_dayline_holo",
+   "orig": "stock/fw/res/drawable-hdpi/day_picker_week_view_dayline_holo.9.png",
+   "ninepatch": {
+    "xdivs": [
+     3,
+     5
+    ],
+    "ydivs": [
+     3,
+     9
+    ],
+    "pad": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "ncolors": 9,
+    "layout": null
+   },
+   "px": 12,
+   "vis": 12
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "divider_strong_holo",
+   "orig": "stock/fw/res/drawable-hdpi/divider_strong_holo.9.png",
+   "ninepatch": {
+    "xdivs": [
+     0,
+     1
+    ],
+    "ydivs": [
+     0,
+     1
+    ],
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "ncolors": 1,
+    "layout": null
+   },
+   "px": 1,
+   "vis": 1
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "fastscroll_thumb_default_holo",
+   "orig": "stock/fw/res/drawable-hdpi/fastscroll_thumb_default_holo.png",
+   "ninepatch": null,
+   "px": 405,
+   "vis": 405
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "fastscroll_thumb_pressed_holo",
+   "orig": "stock/fw/res/drawable-hdpi/fastscroll_thumb_pressed_holo.png",
+   "ninepatch": null,
+   "px": 1149,
+   "vis": 1133
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "ic_media_route_on_0_holo_dark",
+   "orig": "stock/fw/res/drawable-hdpi/ic_media_route_on_0_holo_dark.png",
+   "ninepatch": null,
+   "px": 13,
+   "vis": 400
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "ic_media_route_on_0_holo_light",
+   "orig": "stock/fw/res/drawable-hdpi/ic_media_route_on_0_holo_light.png",
+   "ninepatch": null,
+   "px": 13,
+   "vis": 400
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "ic_media_route_on_1_holo_dark",
+   "orig": "stock/fw/res/drawable-hdpi/ic_media_route_on_1_holo_dark.png",
+   "ninepatch": null,
+   "px": 53,
+   "vis": 401
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "ic_media_route_on_1_holo_light",
+   "orig": "stock/fw/res/drawable-hdpi/ic_media_route_on_1_holo_light.png",
+   "ninepatch": null,
+   "px": 53,
+   "vis": 401
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "ic_media_route_on_2_holo_dark",
+   "orig": "stock/fw/res/drawable-hdpi/ic_media_route_on_2_holo_dark.png",
+   "ninepatch": null,
+   "px": 95,
+   "vis": 403
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "ic_media_route_on_2_holo_light",
+   "orig": "stock/fw/res/drawable-hdpi/ic_media_route_on_2_holo_light.png",
+   "ninepatch": null,
+   "px": 95,
+   "vis": 403
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "ic_media_route_on_holo_dark",
+   "orig": "stock/fw/res/drawable-hdpi/ic_media_route_on_holo_dark.png",
+   "ninepatch": null,
+   "px": 420,
+   "vis": 408
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "ic_media_route_on_holo_light",
+   "orig": "stock/fw/res/drawable-hdpi/ic_media_route_on_holo_light.png",
+   "ninepatch": null,
+   "px": 420,
+   "vis": 408
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "list_activated_holo",
+   "orig": "stock/fw/res/drawable-hdpi/list_activated_holo.9.png",
+   "ninepatch": {
+    "xdivs": [
+     3,
+     6
+    ],
+    "ydivs": [
+     3,
+     6
+    ],
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "ncolors": 9,
+    "layout": null
+   },
+   "px": 81,
+   "vis": 81
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "list_focused_holo",
+   "orig": "stock/fw/res/drawable-hdpi/list_focused_holo.9.png",
+   "ninepatch": {
+    "xdivs": [
+     3,
+     6
+    ],
+    "ydivs": [
+     3,
+     6
+    ],
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "ncolors": 9,
+    "layout": null
+   },
+   "px": 81,
+   "vis": 81
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "list_longpressed_holo",
+   "orig": "stock/fw/res/drawable-hdpi/list_longpressed_holo.9.png",
+   "ninepatch": {
+    "xdivs": [
+     3,
+     6
+    ],
+    "ydivs": [
+     3,
+     6
+    ],
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "ncolors": 9,
+    "layout": null
+   },
+   "px": 81,
+   "vis": 81
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "list_selector_activated_holo_light",
+   "orig": "stock/fw/res/drawable-hdpi/list_selector_activated_holo_light.9.png",
+   "ninepatch": {
+    "xdivs": [
+     11,
+     12
+    ],
+    "ydivs": [
+     30,
+     31
+    ],
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "ncolors": 9,
+    "layout": null
+   },
+   "px": 189,
+   "vis": 1323
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "magnified_region_frame",
+   "orig": "stock/fw/res/drawable-hdpi/magnified_region_frame.9.png",
+   "ninepatch": {
+    "xdivs": [
+     3,
+     6
+    ],
+    "ydivs": [
+     3,
+     6
+    ],
+    "pad": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "ncolors": 9,
+    "layout": [
+     3,
+     3,
+     3,
+     3
+    ]
+   },
+   "px": 72,
+   "vis": 72
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "numberpicker_selection_divider",
+   "orig": "stock/fw/res/drawable-hdpi/numberpicker_selection_divider.9.png",
+   "ninepatch": {
+    "xdivs": [
+     0,
+     3
+    ],
+    "ydivs": [
+     0,
+     3
+    ],
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "ncolors": 1,
+    "layout": null
+   },
+   "px": 9,
+   "vis": 9
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "panel_picture_frame_bg_focus_blue",
+   "orig": "stock/fw/res/drawable-hdpi/panel_picture_frame_bg_focus_blue.9.png",
+   "ninepatch": {
+    "xdivs": [
+     19,
+     77
+    ],
+    "ydivs": [
+     19,
+     75
+    ],
+    "pad": [
+     11,
+     11,
+     11,
+     11
+    ],
+    "ncolors": 9,
+    "layout": null
+   },
+   "px": 7849,
+   "vis": 8772
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "panel_picture_frame_bg_pressed_blue",
+   "orig": "stock/fw/res/drawable-hdpi/panel_picture_frame_bg_pressed_blue.9.png",
+   "ninepatch": {
+    "xdivs": [
+     19,
+     77
+    ],
+    "ydivs": [
+     19,
+     75
+    ],
+    "pad": [
+     11,
+     11,
+     11,
+     11
+    ],
+    "ncolors": 9,
+    "layout": null
+   },
+   "px": 7849,
+   "vis": 8772
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "progress_primary_holo_dark",
+   "orig": "stock/fw/res/drawable-hdpi/progress_primary_holo_dark.9.png",
+   "ninepatch": {
+    "xdivs": [
+     0,
+     33
+    ],
+    "ydivs": [
+     0,
+     3,
+     21,
+     24
+    ],
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "ncolors": 3,
+    "layout": null
+   },
+   "px": 342,
+   "vis": 235
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "progress_primary_holo_light",
+   "orig": "stock/fw/res/drawable-hdpi/progress_primary_holo_light.9.png",
+   "ninepatch": {
+    "xdivs": [
+     0,
+     3
+    ],
+    "ydivs": [
+     0,
+     3,
+     21,
+     24
+    ],
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "ncolors": 6,
+    "layout": null
+   },
+   "px": 342,
+   "vis": 235
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "progress_secondary_holo_dark",
+   "orig": "stock/fw/res/drawable-hdpi/progress_secondary_holo_dark.9.png",
+   "ninepatch": {
+    "xdivs": [
+     0,
+     6
+    ],
+    "ydivs": [
+     0,
+     3,
+     21,
+     24
+    ],
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "ncolors": 3,
+    "layout": null
+   },
+   "px": 36,
+   "vis": 36
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "progress_secondary_holo_light",
+   "orig": "stock/fw/res/drawable-hdpi/progress_secondary_holo_light.9.png",
+   "ninepatch": {
+    "xdivs": [
+     0,
+     6
+    ],
+    "ydivs": [
+     0,
+     3,
+     21,
+     24
+    ],
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "ncolors": 3,
+    "layout": null
+   },
+   "px": 36,
+   "vis": 36
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "progressbar_indeterminate_holo1",
+   "orig": "stock/fw/res/drawable-hdpi/progressbar_indeterminate_holo1.png",
+   "ninepatch": null,
+   "px": 12596,
+   "vis": 8848
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "progressbar_indeterminate_holo2",
+   "orig": "stock/fw/res/drawable-hdpi/progressbar_indeterminate_holo2.png",
+   "ninepatch": null,
+   "px": 12606,
+   "vis": 8860
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "progressbar_indeterminate_holo3",
+   "orig": "stock/fw/res/drawable-hdpi/progressbar_indeterminate_holo3.png",
+   "ninepatch": null,
+   "px": 12580,
+   "vis": 8800
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "progressbar_indeterminate_holo4",
+   "orig": "stock/fw/res/drawable-hdpi/progressbar_indeterminate_holo4.png",
+   "ninepatch": null,
+   "px": 12580,
+   "vis": 8818
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "progressbar_indeterminate_holo5",
+   "orig": "stock/fw/res/drawable-hdpi/progressbar_indeterminate_holo5.png",
+   "ninepatch": null,
+   "px": 12560,
+   "vis": 8816
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "progressbar_indeterminate_holo6",
+   "orig": "stock/fw/res/drawable-hdpi/progressbar_indeterminate_holo6.png",
+   "ninepatch": null,
+   "px": 12596,
+   "vis": 8844
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "progressbar_indeterminate_holo7",
+   "orig": "stock/fw/res/drawable-hdpi/progressbar_indeterminate_holo7.png",
+   "ninepatch": null,
+   "px": 12602,
+   "vis": 8838
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "progressbar_indeterminate_holo8",
+   "orig": "stock/fw/res/drawable-hdpi/progressbar_indeterminate_holo8.png",
+   "ninepatch": null,
+   "px": 12606,
+   "vis": 8854
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "quickactions_arrowdown_left_holo_dark",
+   "orig": "stock/fw/res/drawable-hdpi/quickactions_arrowdown_left_holo_dark.9.png",
+   "ninepatch": {
+    "xdivs": [
+     8,
+     9
+    ],
+    "ydivs": [
+     22,
+     23
+    ],
+    "pad": [
+     3,
+     0,
+     10,
+     9
+    ],
+    "ncolors": 6,
+    "layout": null
+   },
+   "px": 56,
+   "vis": 339
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "quickactions_arrowdown_left_holo_light",
+   "orig": "stock/fw/res/drawable-hdpi/quickactions_arrowdown_left_holo_light.9.png",
+   "ninepatch": {
+    "xdivs": [
+     8,
+     9
+    ],
+    "ydivs": [
+     22,
+     23
+    ],
+    "pad": [
+     3,
+     0,
+     10,
+     9
+    ],
+    "ncolors": 6,
+    "layout": null
+   },
+   "px": 61,
+   "vis": 339
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "quickactions_arrowdown_right_holo_dark",
+   "orig": "stock/fw/res/drawable-hdpi/quickactions_arrowdown_right_holo_dark.9.png",
+   "ninepatch": {
+    "xdivs": [
+     0,
+     1
+    ],
+    "ydivs": [
+     22,
+     23
+    ],
+    "pad": [
+     0,
+     3,
+     10,
+     9
+    ],
+    "ncolors": 6,
+    "layout": null
+   },
+   "px": 56,
+   "vis": 339
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "quickactions_arrowdown_right_holo_light",
+   "orig": "stock/fw/res/drawable-hdpi/quickactions_arrowdown_right_holo_light.9.png",
+   "ninepatch": {
+    "xdivs": [
+     0,
+     1
+    ],
+    "ydivs": [
+     22,
+     23
+    ],
+    "pad": [
+     0,
+     3,
+     10,
+     9
+    ],
+    "ncolors": 6,
+    "layout": null
+   },
+   "px": 61,
+   "vis": 339
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "quickactions_arrowup_left_holo_dark",
+   "orig": "stock/fw/res/drawable-hdpi/quickactions_arrowup_left_holo_dark.9.png",
+   "ninepatch": {
+    "xdivs": [
+     8,
+     9
+    ],
+    "ydivs": [
+     22,
+     23
+    ],
+    "pad": [
+     8,
+     0,
+     12,
+     7
+    ],
+    "ncolors": 6,
+    "layout": null
+   },
+   "px": 49,
+   "vis": 339
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "quickactions_arrowup_left_holo_light",
+   "orig": "stock/fw/res/drawable-hdpi/quickactions_arrowup_left_holo_light.9.png",
+   "ninepatch": {
+    "xdivs": [
+     8,
+     9
+    ],
+    "ydivs": [
+     22,
+     23
+    ],
+    "pad": [
+     8,
+     0,
+     12,
+     7
+    ],
+    "ncolors": 6,
+    "layout": null
+   },
+   "px": 58,
+   "vis": 339
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "quickactions_arrowup_left_right_holo_dark",
+   "orig": "stock/fw/res/drawable-hdpi/quickactions_arrowup_left_right_holo_dark.9.png",
+   "ninepatch": {
+    "xdivs": [
+     0,
+     1
+    ],
+    "ydivs": [
+     22,
+     23
+    ],
+    "pad": [
+     0,
+     8,
+     12,
+     7
+    ],
+    "ncolors": 6,
+    "layout": null
+   },
+   "px": 49,
+   "vis": 339
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "quickactions_arrowup_right_holo_light",
+   "orig": "stock/fw/res/drawable-hdpi/quickactions_arrowup_right_holo_light.9.png",
+   "ninepatch": {
+    "xdivs": [
+     0,
+     1
+    ],
+    "ydivs": [
+     22,
+     23
+    ],
+    "pad": [
+     0,
+     8,
+     12,
+     7
+    ],
+    "ncolors": 6,
+    "layout": null
+   },
+   "px": 58,
+   "vis": 339
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "quickcontact_badge_overlay_focused_dark_am",
+   "orig": "stock/fw/res/drawable-hdpi/quickcontact_badge_overlay_focused_dark_am.9.png",
+   "ninepatch": {
+    "xdivs": [
+     6,
+     7
+    ],
+    "ydivs": [
+     6,
+     7
+    ],
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "ncolors": 9,
+    "layout": null
+   },
+   "px": 1296,
+   "vis": 1296
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "quickcontact_badge_overlay_focused_light_am",
+   "orig": "stock/fw/res/drawable-hdpi/quickcontact_badge_overlay_focused_light_am.9.png",
+   "ninepatch": {
+    "xdivs": [
+     6,
+     7
+    ],
+    "ydivs": [
+     6,
+     7
+    ],
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "ncolors": 9,
+    "layout": null
+   },
+   "px": 1242,
+   "vis": 1296
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "rate_star_big_half_holo_dark",
+   "orig": "stock/fw/res/drawable-hdpi/rate_star_big_half_holo_dark.png",
+   "ninepatch": null,
+   "px": 377,
+   "vis": 959
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "rate_star_big_half_holo_light",
+   "orig": "stock/fw/res/drawable-hdpi/rate_star_big_half_holo_light.png",
+   "ninepatch": null,
+   "px": 434,
+   "vis": 941
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "rate_star_big_on_holo_dark",
+   "orig": "stock/fw/res/drawable-hdpi/rate_star_big_on_holo_dark.png",
+   "ninepatch": null,
+   "px": 693,
+   "vis": 959
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "rate_star_big_on_holo_light",
+   "orig": "stock/fw/res/drawable-hdpi/rate_star_big_on_holo_light.png",
+   "ninepatch": null,
+   "px": 793,
+   "vis": 941
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "rate_star_med_half_holo_dark",
+   "orig": "stock/fw/res/drawable-hdpi/rate_star_med_half_holo_dark.png",
+   "ninepatch": null,
+   "px": 161,
+   "vis": 474
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "rate_star_med_half_holo_light",
+   "orig": "stock/fw/res/drawable-hdpi/rate_star_med_half_holo_light.png",
+   "ninepatch": null,
+   "px": 198,
+   "vis": 466
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "rate_star_med_on_holo_dark",
+   "orig": "stock/fw/res/drawable-hdpi/rate_star_med_on_holo_dark.png",
+   "ninepatch": null,
+   "px": 294,
+   "vis": 474
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "rate_star_med_on_holo_light",
+   "orig": "stock/fw/res/drawable-hdpi/rate_star_med_on_holo_light.png",
+   "ninepatch": null,
+   "px": 359,
+   "vis": 466
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "rate_star_small_half_holo_dark",
+   "orig": "stock/fw/res/drawable-hdpi/rate_star_small_half_holo_dark.png",
+   "ninepatch": null,
+   "px": 57,
+   "vis": 230
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "rate_star_small_half_holo_light",
+   "orig": "stock/fw/res/drawable-hdpi/rate_star_small_half_holo_light.png",
+   "ninepatch": null,
+   "px": 85,
+   "vis": 222
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "rate_star_small_on_holo_dark",
+   "orig": "stock/fw/res/drawable-hdpi/rate_star_small_on_holo_dark.png",
+   "ninepatch": null,
+   "px": 104,
+   "vis": 230
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "rate_star_small_on_holo_light",
+   "orig": "stock/fw/res/drawable-hdpi/rate_star_small_on_holo_light.png",
+   "ninepatch": null,
+   "px": 153,
+   "vis": 222
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "scrubber_control_disabled_holo",
+   "orig": "stock/fw/res/drawable-hdpi/scrubber_control_disabled_holo.png",
+   "ninepatch": null,
+   "px": 52,
+   "vis": 1050
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "scrubber_control_focused_holo",
+   "orig": "stock/fw/res/drawable-hdpi/scrubber_control_focused_holo.png",
+   "ninepatch": null,
+   "px": 1320,
+   "vis": 1124
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "scrubber_control_normal_holo",
+   "orig": "stock/fw/res/drawable-hdpi/scrubber_control_normal_holo.png",
+   "ninepatch": null,
+   "px": 1772,
+   "vis": 1568
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "scrubber_control_pressed_holo",
+   "orig": "stock/fw/res/drawable-hdpi/scrubber_control_pressed_holo.png",
+   "ninepatch": null,
+   "px": 1748,
+   "vis": 1696
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "scrubber_primary_holo",
+   "orig": "stock/fw/res/drawable-hdpi/scrubber_primary_holo.9.png",
+   "ninepatch": {
+    "xdivs": [
+     0,
+     15
+    ],
+    "ydivs": [
+     0,
+     3,
+     15,
+     18
+    ],
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "ncolors": 3,
+    "layout": null
+   },
+   "px": 90,
+   "vis": 90
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "scrubber_secondary_holo",
+   "orig": "stock/fw/res/drawable-hdpi/scrubber_secondary_holo.9.png",
+   "ninepatch": {
+    "xdivs": [
+     0,
+     15
+    ],
+    "ydivs": [
+     0,
+     3,
+     15,
+     18
+    ],
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "ncolors": 3,
+    "layout": null
+   },
+   "px": 90,
+   "vis": 90
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "spinner_ab_focused_holo_dark_am",
+   "orig": "stock/fw/res/drawable-hdpi/spinner_ab_focused_holo_dark_am.9.png",
+   "ninepatch": {
+    "xdivs": [
+     6,
+     9
+    ],
+    "ydivs": [
+     6,
+     9
+    ],
+    "pad": [
+     6,
+     24,
+     6,
+     6
+    ],
+    "ncolors": 9,
+    "layout": [
+     6,
+     6,
+     6,
+     6
+    ]
+   },
+   "px": 1584,
+   "vis": 1584
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "spinner_ab_focused_holo_light_am",
+   "orig": "stock/fw/res/drawable-hdpi/spinner_ab_focused_holo_light_am.9.png",
+   "ninepatch": {
+    "xdivs": [
+     6,
+     9
+    ],
+    "ydivs": [
+     6,
+     9
+    ],
+    "pad": [
+     6,
+     24,
+     6,
+     6
+    ],
+    "ncolors": 9,
+    "layout": [
+     6,
+     6,
+     6,
+     6
+    ]
+   },
+   "px": 1584,
+   "vis": 1584
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "spinner_focused_holo_dark_am",
+   "orig": "stock/fw/res/drawable-hdpi/spinner_focused_holo_dark_am.9.png",
+   "ninepatch": {
+    "xdivs": [
+     6,
+     9
+    ],
+    "ydivs": [
+     6,
+     9
+    ],
+    "pad": [
+     6,
+     24,
+     10,
+     12
+    ],
+    "ncolors": 9,
+    "layout": [
+     6,
+     6,
+     6,
+     6
+    ]
+   },
+   "px": 1584,
+   "vis": 1584
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "spinner_focused_holo_light_am",
+   "orig": "stock/fw/res/drawable-hdpi/spinner_focused_holo_light_am.9.png",
+   "ninepatch": {
+    "xdivs": [
+     6,
+     9
+    ],
+    "ydivs": [
+     6,
+     9
+    ],
+    "pad": [
+     6,
+     24,
+     10,
+     12
+    ],
+    "ncolors": 9,
+    "layout": [
+     6,
+     6,
+     6,
+     6
+    ]
+   },
+   "px": 1584,
+   "vis": 1584
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "stat_sys_phone_call_forward",
+   "orig": "stock/fw/res/drawable-hdpi/stat_sys_phone_call_forward.png",
+   "ninepatch": null,
+   "px": 735,
+   "vis": 483
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "switch_bg_focused_holo_dark",
+   "orig": "stock/fw/res/drawable-hdpi/switch_bg_focused_holo_dark.9.png",
+   "ninepatch": {
+    "xdivs": [
+     14,
+     15
+    ],
+    "ydivs": [
+     21,
+     22
+    ],
+    "pad": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "ncolors": 9,
+    "layout": null
+   },
+   "px": 272,
+   "vis": 1136
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "switch_bg_focused_holo_light",
+   "orig": "stock/fw/res/drawable-hdpi/switch_bg_focused_holo_light.9.png",
+   "ninepatch": {
+    "xdivs": [
+     14,
+     15
+    ],
+    "ydivs": [
+     21,
+     22
+    ],
+    "pad": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "ncolors": 9,
+    "layout": null
+   },
+   "px": 272,
+   "vis": 1136
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "switch_thumb_activated_holo_dark",
+   "orig": "stock/fw/res/drawable-hdpi/switch_thumb_activated_holo_dark.9.png",
+   "ninepatch": {
+    "xdivs": [
+     36,
+     42
+    ],
+    "ydivs": [
+     3,
+     39
+    ],
+    "pad": [
+     21,
+     21,
+     3,
+     3
+    ],
+    "ncolors": 9,
+    "layout": null
+   },
+   "px": 1152,
+   "vis": 1144
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "switch_thumb_activated_holo_light",
+   "orig": "stock/fw/res/drawable-hdpi/switch_thumb_activated_holo_light.9.png",
+   "ninepatch": {
+    "xdivs": [
+     36,
+     42
+    ],
+    "ydivs": [
+     3,
+     39
+    ],
+    "pad": [
+     21,
+     21,
+     3,
+     3
+    ],
+    "ncolors": 9,
+    "layout": null
+   },
+   "px": 1152,
+   "vis": 1144
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "tab_bottom_holo",
+   "orig": "stock/fw/res/drawable-hdpi/tab_bottom_holo.9.png",
+   "ninepatch": {
+    "xdivs": [
+     8,
+     9
+    ],
+    "ydivs": [
+     0,
+     2
+    ],
+    "pad": [
+     8,
+     6,
+     0,
+     0
+    ],
+    "ncolors": 6,
+    "layout": null
+   },
+   "px": 45,
+   "vis": 45
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "tab_pressed_holo",
+   "orig": "stock/fw/res/drawable-hdpi/tab_pressed_holo.9.png",
+   "ninepatch": {
+    "xdivs": [
+     8,
+     9
+    ],
+    "ydivs": [
+     0,
+     1
+    ],
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "ncolors": 6,
+    "layout": null
+   },
+   "px": 1080,
+   "vis": 1080
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "tab_selected_focused_holo",
+   "orig": "stock/fw/res/drawable-hdpi/tab_selected_focused_holo.9.png",
+   "ninepatch": {
+    "xdivs": [
+     0,
+     3
+    ],
+    "ydivs": [
+     0,
+     3
+    ],
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "ncolors": 2,
+    "layout": null
+   },
+   "px": 36,
+   "vis": 36
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "tab_selected_holo",
+   "orig": "stock/fw/res/drawable-hdpi/tab_selected_holo.9.png",
+   "ninepatch": {
+    "xdivs": [
+     0,
+     3
+    ],
+    "ydivs": [
+     0,
+     3
+    ],
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "ncolors": 2,
+    "layout": null
+   },
+   "px": 27,
+   "vis": 27
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "tab_selected_pressed_holo",
+   "orig": "stock/fw/res/drawable-hdpi/tab_selected_pressed_holo.9.png",
+   "ninepatch": {
+    "xdivs": [
+     0,
+     3
+    ],
+    "ydivs": [
+     0,
+     3
+    ],
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "ncolors": 2,
+    "layout": null
+   },
+   "px": 27,
+   "vis": 36
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "tab_unselected_focused_holo",
+   "orig": "stock/fw/res/drawable-hdpi/tab_unselected_focused_holo.9.png",
+   "ninepatch": {
+    "xdivs": [
+     0,
+     3
+    ],
+    "ydivs": [
+     0,
+     3
+    ],
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "ncolors": 2,
+    "layout": null
+   },
+   "px": 18,
+   "vis": 18
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "tab_unselected_holo",
+   "orig": "stock/fw/res/drawable-hdpi/tab_unselected_holo.9.png",
+   "ninepatch": {
+    "xdivs": [
+     0,
+     3
+    ],
+    "ydivs": [
+     0,
+     3
+    ],
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "ncolors": 2,
+    "layout": null
+   },
+   "px": 6,
+   "vis": 6
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "tab_unselected_pressed_holo",
+   "orig": "stock/fw/res/drawable-hdpi/tab_unselected_pressed_holo.9.png",
+   "ninepatch": {
+    "xdivs": [
+     0,
+     3
+    ],
+    "ydivs": [
+     0,
+     3
+    ],
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "ncolors": 2,
+    "layout": null
+   },
+   "px": 6,
+   "vis": 18
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "text_select_handle_left",
+   "orig": "stock/fw/res/drawable-hdpi/text_select_handle_left.png",
+   "ninepatch": null,
+   "px": 1472,
+   "vis": 1717
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "text_select_handle_middle",
+   "orig": "stock/fw/res/drawable-hdpi/text_select_handle_middle.png",
+   "ninepatch": null,
+   "px": 1820,
+   "vis": 2095
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "text_select_handle_right",
+   "orig": "stock/fw/res/drawable-hdpi/text_select_handle_right.png",
+   "ninepatch": null,
+   "px": 1472,
+   "vis": 1717
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "textfield_activated_holo_dark",
+   "orig": "stock/fw/res/drawable-hdpi/textfield_activated_holo_dark.9.png",
+   "ninepatch": {
+    "xdivs": [
+     18,
+     21
+    ],
+    "ydivs": [
+     30,
+     33
+    ],
+    "pad": [
+     18,
+     18,
+     10,
+     12
+    ],
+    "ncolors": 9,
+    "layout": [
+     6,
+     6,
+     6,
+     6
+    ]
+   },
+   "px": 78,
+   "vis": 78
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "textfield_activated_holo_light",
+   "orig": "stock/fw/res/drawable-hdpi/textfield_activated_holo_light.9.png",
+   "ninepatch": {
+    "xdivs": [
+     18,
+     21
+    ],
+    "ydivs": [
+     30,
+     33
+    ],
+    "pad": [
+     18,
+     18,
+     10,
+     12
+    ],
+    "ncolors": 9,
+    "layout": [
+     6,
+     6,
+     6,
+     6
+    ]
+   },
+   "px": 78,
+   "vis": 78
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "textfield_focused_holo_dark",
+   "orig": "stock/fw/res/drawable-hdpi/textfield_focused_holo_dark.9.png",
+   "ninepatch": {
+    "xdivs": [
+     18,
+     21
+    ],
+    "ydivs": [
+     30,
+     33
+    ],
+    "pad": [
+     18,
+     18,
+     10,
+     12
+    ],
+    "ncolors": 9,
+    "layout": null
+   },
+   "px": 295,
+   "vis": 283
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "textfield_focused_holo_light",
+   "orig": "stock/fw/res/drawable-hdpi/textfield_focused_holo_light.9.png",
+   "ninepatch": {
+    "xdivs": [
+     18,
+     21
+    ],
+    "ydivs": [
+     30,
+     33
+    ],
+    "pad": [
+     18,
+     18,
+     10,
+     12
+    ],
+    "ncolors": 9,
+    "layout": null
+   },
+   "px": 295,
+   "vis": 283
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "textfield_longpress_holo",
+   "orig": "stock/fw/res/drawable-hdpi/textfield_longpress_holo.9.png",
+   "ninepatch": {
+    "xdivs": [
+     0,
+     1
+    ],
+    "ydivs": [
+     0,
+     1
+    ],
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "ncolors": 1,
+    "layout": null
+   },
+   "px": 1,
+   "vis": 1
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "textfield_multiline_activated_holo_dark",
+   "orig": "stock/fw/res/drawable-hdpi/textfield_multiline_activated_holo_dark.9.png",
+   "ninepatch": {
+    "xdivs": [
+     18,
+     21
+    ],
+    "ydivs": [
+     30,
+     33
+    ],
+    "pad": [
+     18,
+     18,
+     10,
+     12
+    ],
+    "ncolors": 9,
+    "layout": [
+     6,
+     6,
+     6,
+     6
+    ]
+   },
+   "px": 78,
+   "vis": 78
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "textfield_multiline_activated_holo_light",
+   "orig": "stock/fw/res/drawable-hdpi/textfield_multiline_activated_holo_light.9.png",
+   "ninepatch": {
+    "xdivs": [
+     18,
+     21
+    ],
+    "ydivs": [
+     30,
+     33
+    ],
+    "pad": [
+     18,
+     18,
+     10,
+     12
+    ],
+    "ncolors": 9,
+    "layout": [
+     6,
+     6,
+     6,
+     6
+    ]
+   },
+   "px": 78,
+   "vis": 78
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "textfield_multiline_focused_holo_dark",
+   "orig": "stock/fw/res/drawable-hdpi/textfield_multiline_focused_holo_dark.9.png",
+   "ninepatch": {
+    "xdivs": [
+     18,
+     21
+    ],
+    "ydivs": [
+     30,
+     33
+    ],
+    "pad": [
+     18,
+     18,
+     10,
+     12
+    ],
+    "ncolors": 9,
+    "layout": [
+     6,
+     6,
+     6,
+     6
+    ]
+   },
+   "px": 422,
+   "vis": 354
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "textfield_multiline_focused_holo_light",
+   "orig": "stock/fw/res/drawable-hdpi/textfield_multiline_focused_holo_light.9.png",
+   "ninepatch": {
+    "xdivs": [
+     18,
+     21
+    ],
+    "ydivs": [
+     30,
+     33
+    ],
+    "pad": [
+     18,
+     18,
+     10,
+     12
+    ],
+    "ncolors": 9,
+    "layout": [
+     6,
+     6,
+     6,
+     6
+    ]
+   },
+   "px": 422,
+   "vis": 354
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "textfield_pressed_holo",
+   "orig": "stock/fw/res/drawable-hdpi/textfield_pressed_holo.9.png",
+   "ninepatch": {
+    "xdivs": [
+     0,
+     1
+    ],
+    "ydivs": [
+     0,
+     1
+    ],
+    "pad": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "ncolors": 1,
+    "layout": null
+   },
+   "px": 1,
+   "vis": 1
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "textfield_search_right_selected_holo_dark",
+   "orig": "stock/fw/res/drawable-hdpi/textfield_search_right_selected_holo_dark.9.png",
+   "ninepatch": {
+    "xdivs": [
+     6,
+     8
+    ],
+    "ydivs": [
+     0,
+     1
+    ],
+    "pad": [
+     0,
+     2,
+     0,
+     2
+    ],
+    "ncolors": 6,
+    "layout": null
+   },
+   "px": 36,
+   "vis": 36
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "textfield_search_right_selected_holo_light",
+   "orig": "stock/fw/res/drawable-hdpi/textfield_search_right_selected_holo_light.9.png",
+   "ninepatch": {
+    "xdivs": [
+     6,
+     8
+    ],
+    "ydivs": [
+     0,
+     1
+    ],
+    "pad": [
+     0,
+     2,
+     0,
+     2
+    ],
+    "ncolors": 6,
+    "layout": null
+   },
+   "px": 36,
+   "vis": 36
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "textfield_search_selected_holo_dark",
+   "orig": "stock/fw/res/drawable-hdpi/textfield_search_selected_holo_dark.9.png",
+   "ninepatch": {
+    "xdivs": [
+     6,
+     8
+    ],
+    "ydivs": [
+     0,
+     1
+    ],
+    "pad": [
+     2,
+     2,
+     0,
+     2
+    ],
+    "ncolors": 6,
+    "layout": null
+   },
+   "px": 44,
+   "vis": 44
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "textfield_search_selected_holo_light",
+   "orig": "stock/fw/res/drawable-hdpi/textfield_search_selected_holo_light.9.png",
+   "ninepatch": {
+    "xdivs": [
+     6,
+     8
+    ],
+    "ydivs": [
+     0,
+     1
+    ],
+    "pad": [
+     2,
+     2,
+     0,
+     2
+    ],
+    "ncolors": 6,
+    "layout": null
+   },
+   "px": 44,
+   "vis": 44
+  },
+  {
+   "pkg": "android",
+   "dir": "drawable-hdpi",
+   "nome": "webviewchromium_color_picker_advanced_select_handle",
+   "orig": "stock/fw/res/drawable-hdpi/webviewchromium_color_picker_advanced_select_handle.png",
+   "ninepatch": null,
+   "px": 1820,
+   "vis": 2095
+  }
+ ]
+}
